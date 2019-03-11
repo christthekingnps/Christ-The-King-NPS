@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+.column {
+
+  float: left;
+
+  padding: 18px;
+
+  height: 800px; 
+
+  border: 1px solid blue;
+
+}
+
+.left {
+
+  width: 38%;
+
+}
+
+.middle {
+
+  width: 62%;
+
+} 
+
+.row:after {
+
+  content: "";
+
+  display: table;
+
+  clear: none;
+
+}
+
+  
+
+  
+
+  p.test2 {
+
+  width: 100px; 
+
+  border: 1px solid #000000;
+
+  word-break: break-all;
+
+  }
+
+  
+
+  
+
+  h2 {
+
+  font-size: 18px;
+
+}
+
+h3 {
+
+  font-size: 18px;
+
+}
+
+p {
+
+  font-size: 14px;
+
+}
+
+  
+
+  
+
+  
+
+</style>
+
+</head>
+
+  
+
+<body>
+
+  <p><a href="index.html"> Home </a></p> 
+
+<h2 style="color:blue;">Welcome to the Primary Section of Christ the King Nursery and Primary School</h2>
+
+  
+
+<div class="row">
+
+  <div class="column left" style="background-color:lightblue;">
+
+    <h2>Education is highly vital for the sustainable growth and development of a country</h2>
+
+    <p>We are here to support you to see your child grow and become successful in life</p>
+
+      
+
+  </div>
+
+  <div class="column middle" style="background-color:#ddd;">                                <h2>Best education for a bright future</h2>                              
+
+      
+
+     <h3>Our teaching philosophy is guided by the Christ the saviour</h3>
+
+    <p>The primary section has been operational since February 2018 targeting children above five years old. The current enrollment is 150 pupils spread from primary one to four. The school is built on the foundation of promoting top quality education for a great nation of Uganda. The school has created a conducive learning environment for your child that includes both physical and metal fitness. Academic excellence is our priority. This is why we give our pupils adequate teaching and regularly assessed through tests, mid-term and end of term examinations</p>
+
+    <h4>Educate Home, Educate Like a King</h4>
+
+      <img src="Envt con.jpg" alt="Trulli" width="185" height="130"> 
+
+    <p><a href="#top" Back to the top</a></p>
+
+    
+
+    <h4 style="color:black;"> Publications from external sources </h4>
+
+    <p><a href="https://tandfonline.com/doi/full/10.1080/00103624.2016.1147047"target="_blank"> Effect of Fertilizer Nitrogen (N) on Soil Organic Carbon, Total N, and Soil pH in Long-Term Continuous Winter Wheat (Triticum Aestivum L.)</a></p>
+
+    <p><a href="https://tandfonline.com/doi/full/10.1080/01904167.2016.1264423"target="_blank">Effect of long-term beef manure application on soil test phosphorus, organic carbon, and winter wheat yield</a></p>
+
+    <p><a href="https://tandfonline.com/doi/full/10.1080/01904167.2015.1022186"target="_blank">Hand planter for maize (Zea mays L.) in the developing world</a></p>
+
+  </div>
+
+ 
+
+</body>
+
+</html>
