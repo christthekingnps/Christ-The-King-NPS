@@ -247,24 +247,35 @@ body {
 
 </nav>
 
- 
 
-
-<h1>Christ the King NPS Google Map</h1>
-
-<div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(2.422529,32.587795),
-  zoom:10,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of CK-NPS
+  var CK-NPS = {lat: 2.422529, lng: 32.587795};
+  // The map, centered at CK-NPS
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: CK-NPS});
+  // The marker, positioned at CK-NPS
+  var marker = new google.maps.Marker({position: CK-NPS, map: map});
 }
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMn-oHzwlURK6tAvjqHfGAfVSuORQT354&callback=myMap"></script>
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMn-oHzwlURK6tAvjqHfGAfVSuORQT354&callback=initMap">
+    </script>
+ 
 
 
 
