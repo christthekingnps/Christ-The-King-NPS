@@ -257,14 +257,14 @@ body {
     </style>
   </head>
   <body>
-    <h3>My Google Maps for CK-NPS</h3>
+    <h3>Google Maps for CK-NPS</h3>
     <!--The div element for the map -->
     <div id="map"></div>
     <script>
 // Initialize and add the map
 function initMap() {
   // The location of CKNPS
-  var CKNPS = {lat: 2.422529, lng: 32.587795};
+  var CKNPS = {lat: 32.587795, lng: 2.422529};
   // The map, centered at CKNPS
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 4, center: CKNPS});
