@@ -257,19 +257,19 @@ body {
     </style>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
+    <h3>My Google Maps for CK-NPS</h3>
     <!--The div element for the map -->
     <div id="map"></div>
     <script>
 // Initialize and add the map
 function initMap() {
-  // The location of CK-NPS
-  var CK-NPS = {lat: 2.422529, lng: 32.587795};
-  // The map, centered at CK-NPS
+  // The location of CKNPS
+  var CKNPS = {lat: 2.422529, lng: 32.587795};
+  // The map, centered at CKNPS
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: CK-NPS});
-  // The marker, positioned at CK-NPS
-  var marker = new google.maps.Marker({position: CK-NPS, map: map});
+      document.getElementById('map'), {zoom: 4, center: CKNPS});
+  // The marker, positioned at CKNPS
+  var marker = new google.maps.Marker({position: CKNPS, map: map});
 }
     </script>
     <script async defer
