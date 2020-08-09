@@ -291,14 +291,16 @@ document.getElementById("demo").innerHTML = d;
 <html>
 <head></head>
 <body>
- 
-<script language="JavaScript">
-<!-- Hide JavaScript...
-var LastUpdated = document.lastModified;
-document.writeln ("Last updated on " + LastUpdated);
-// End Hiding -->
-</script>
- 
+
+ <script language="javascript"> 
+months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']; 
+var theDate = new Date(document.lastModified); 
+theDate.setTime((theDate.getTime()+(5000*60*60)) ) 
+with (theDate) { 
+document.write("<i>Last updated "+getDate()+' '+months[getMonth()]+' '+getYear()+' '+getHours()+':'+getMinutes()+" GMT</i>") 
+} 
+</script> 
+    
 </body>
 </html>
 
