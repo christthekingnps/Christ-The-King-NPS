@@ -287,9 +287,20 @@ document.getElementById("demo").innerHTML = d;
 
  </div>
 
-<script language="Javascript">
-document.write("This page was last modified on: " + document.lastModified +"");
-</SCRIPT>
+
+<html>
+<head></head>
+<body>
+ 
+<script language="JavaScript">
+<!-- Hide JavaScript...
+var LastUpdated = document.lastModified;
+document.writeln ("This page was last updated " + LastUpdated);
+// End Hiding -->
+</script>
+ 
+</body>
+</html>
 
 
 </body>
